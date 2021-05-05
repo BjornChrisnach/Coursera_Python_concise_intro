@@ -537,6 +537,11 @@ print("Start||{}||End".format(s))
 Solution:
 """
 s = "hello, there"
+print("Start||{0}||End".format(s))
+print("Start||{0:25}End".format(s))
+print("Start||{0:>25}||End".format(s))
+print("Start||{0:<25}||End".format(s))
+print("Start||{0:^25}End".format(s))
 
 
 
